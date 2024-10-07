@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <div>
+            <div>
+                <form  method="post">
+                    
+                    <h1> Cadastrar usuário </h1>
+
+                    <fieldset name="ola">
+                    <legend> Dados Pessoais </legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+
+                    <label for="confirmaSenha">Confirme a senha:</label>
+                    <input type="password" id="confirmaSenha" name="confirmaSenha" required>
+
+                    <label for="idade">Idade:</label>
+
+                    <input type="radio" id="idade" name="idade" required>
+                    <label for="idade">Acima de 17</label>
+
+                    <input type="radio" id="idade" name="idade" required>
+                    <label for="idade">Abaixo ou igual a 17</label>
+                    </fieldset>
+
+                    <br>
+                    <br>
+                    
+                    <fieldset>
+                    <legend> Perfil </legend>
+                    <label for="descricao">Descrição:</label>
+                    <textarea name="descricao" id="descricao" cols="30" rows="3"></textarea>
+
+                    <select name="perfil" id="perfil">
+                        <option value="1">Desenvolvedor</option>
+                        <option value="2">Designer</option>
+                        <option value="3">Analista de Sistemas</option>
+                        <option value="4">Gerente de Projetos</option>
+
+                    </select>
+
+                    <label for="interesses: ">Descrição:</label>
+                    <input type="checkbox" id="interesse1" name="interesse1">
+                    <label for="interesse1">Desenvolvimento Web</label>
+
+                    <input type="checkbox" id="interesse2" name="interesse2">
+                    <label for="interesse2">Desenvolvimento Mobile</label>
+
+                    <input type="checkbox" id="interesse3" name="interesse3"> 
+                    <br>
+                    </fieldset>
+
+                    <br>
+                    <button type="submit">Enviar dados</button>
+                    
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

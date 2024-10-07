@@ -1,0 +1,48 @@
+
+
+
+/* Aligns the image to the center */
+#image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the titles */
+.title {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.title:hover {
+  background-color: lightgray;
+}
+
+/* Modifies the font family for <p> tags */
+p {
+  font-family: Verdana, sans-serif;
+}
+
+/* Modifies the list style type for ordered lists */
+ol {
+  list-style-type: upper-alpha;
+}
+
+/* Styles for email, social media, and age */
+.email,
+.social-media,
+.age {
+  background-color: lightblue;
+}
+
+/* Styles for the divs */
+.minhadiv {
+  border: 1px dashed black;
+  background-color: gray;
+  text-align: center;
+}
+
+.name {
+  background-color: lightgray;
+  color: blueviolet;
+}
