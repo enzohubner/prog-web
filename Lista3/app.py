@@ -18,13 +18,13 @@ def index():
         
         idade = request.form['idade']
         
-        return redirect(f'/resposta/{nome}/{email}/{senha}')
+        return render_template('resposta.html', nome = nome, email = email, senha = senha)
     else:
         return render_template('formulario.html')
 
 @app.route('/resposta', methods=['GET'])
-def resposta():
-    return render_template('resposta.html')
+def resposta(nome,email,senha):
+    return render_template('resposta.html', nome = nome, email = email, senha = senha)
     
 
 if __name__ == '__main__':
