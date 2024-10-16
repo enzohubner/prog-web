@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: #f0f0f0; ;
+}
+
+.container{
+    background-color: #cccccc;
+    width: 960px;
+    margin: auto ;
+}
+
+header, footer{
+    background-color: #0a0a0a10;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto/Roboto-Regular.ttf');
+}
+
+title{
+    font-family: 'Roboto', sans-serif;
+}   
