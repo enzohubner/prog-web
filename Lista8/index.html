@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastrar usuário</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastrar usuário</h1>
+    <form>
+
+      <div class="section">
+        <h2 class="section-title">Dados pessoais</h2>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome"><br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone"><br><br>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Dados de acesso</h2>
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login"><br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"><br><br>
+        <label for="confirmacao">Confirmar senha:</label>
+        <input type="password" id="confirmacao" name="confirmacao"><br><br>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Dados adicionais</h2>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="sexo-masculino" name="sexo" value="masculino">
+        <label for="sexo-masculino">Masculino</label>
+        <input type="radio" id="sexo-feminino" name="sexo" value="feminino">
+        <label for="sexo-feminino">Feminino</label><br><br>
+        <label for="estado-civil">Estado civil:</label>
+        <select id="estado-civil" name="estado-civil">
+          <option value="">Selecione</option>
+          <option value="solteiro">Solteiro</option>
+          <option value="casado">Casado</option>
+          <option value="divorciado">Divorciado</option>
+          <option value="viuvo">Viúvo</option>
+        </select><br><br>
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" name="descricao"></textarea><br><br>
+      </div>
+
+      <button>Cadastrar</button>
+    </form>
+  </div>
+</body>
+</html>
